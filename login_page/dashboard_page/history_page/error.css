@@ -1,0 +1,99 @@
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+  *{
+    margin:0;
+    padding: 0;
+    border-sizing- border-box;
+    font-family: Poppins, Sans-Serif;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+  body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background-size: cover;
+    background: center no-repeat;
+  }
+  
+  .error-box{
+    width: 100%;
+    max-width: 50rem;
+    background-color: #f9a829;
+    padding: 2.5rem 2.5rem 8rem;
+    text-align: center;
+    font-family: Poppins Sans-Serif;
+    box-shadow: 0 0 2rem #444;
+  }
+  .logo-box{
+    width: 6rem;
+    height: 6rem;
+  }
+  
+ .logo{
+   width: 100%;
+ }
+ 
+ .error-number{
+   color: #fff;
+   font-size:3.6rem;  
+   font-weight: bold;
+ }
+ .error-message{
+   display: inline-block;
+   background-color: #fff;
+   font-size: 2rem;
+   color: #444;
+   padding: 1rem;
+   font-weight: bold;
+   box-shadow: 0 0 1rem #444;
+ }
+ 
+ .error-description{
+   color: #fff;
+   font-size: 1.4rem;
+   margin-top: 2.5rem;
+   margin-bottom: 4rem;
+   letter-spacing: 0.5px;
+   font-weight: bold;
+ }
+ 
+ .error-cta{
+   text-decoration: none;
+   color : #444;
+   font-size: 1.7rem;
+   border: 1px solid #444;
+   padding: 1rem 2.5rem;
+   transition: background-color 1s;
+   font-weight:bold;
+   box-shadow: 0 0 1rem #444;
+ }
+ 
+ .error-cta:hover{
+   background-color: #444;
+   color: #fff;
+ }
+ 
+ @media screen and (min-width: 768px){
+   .error-box{
+     max-width: 78rem;
+   }
+   .error-number{
+     font-size: 6rem;
+   }
+   .error-message{
+     font-size: 3.5rem;
+   }
+   .error-description{
+     font-size: 1.5rem;
+   }
+   .error-cta{
+     font-size: 2rem;
+   }
+ }
+   
