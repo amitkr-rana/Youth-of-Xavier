@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+html,
+body {
+    height: 100%;
+    position: relative;
+    font-family: Poppins, Sans-Serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background: #fff;
+}
+
+.product {
+    padding: 20px 0;
+
+    
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.card-img img{
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card-info {
+    min-height: 540px;
+    width: 100%;
+    background: #fff;
+}
+
+.card-text {
+    padding: 60px 50px;
+}
+
+h1 {
+    color: #f9a829;
+    font-size: 35px;
+    line-height: 1.5;
+    margin: -1px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 14px;
+    color: #333;
+    margin: 0 0 60px;
+    font-weight: 550;
+}
+
+p {
+    color: #333;
+    font-weight: 500;
+    
+    
+}
+
+.card-footer {
+    padding-top: 20px;
+}
+
+.card-footer p {
+    display: inline-block;
+    font-size: 35px;
+    color: #f9a829;
+    font-weight: 800;
+}
+
+p span {
+    font-size: 14px;
+    margin-right: 5px;
+    color: #f9a829;
+}
+
+button {
+    float: right;
+    height: 45px;
+    width: 145px;
+    color: #333;
+    background: #f9a829;
+    border-color: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    font-weight: 500;
+}
+
+.card-text button a{
+  text-decoration: none;
+  color: #444;
+}
